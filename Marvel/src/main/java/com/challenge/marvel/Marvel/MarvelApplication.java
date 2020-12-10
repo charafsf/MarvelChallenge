@@ -11,14 +11,14 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class MarvelApplication extends SpringBootServletInitializer {
 
-		@Override
-		protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-			return application.sources(MarvelApplication.class);
-		}
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(MarvelApplication.class);
+    }
 
-		public static void main(String[] args) {
-			SpringApplication.run(MarvelApplication.class, args);
-		}
+    public static void main(String[] args) {
+        SpringApplication.run(MarvelApplication.class, args);
+    }
 
 }
 
